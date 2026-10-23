@@ -15,7 +15,6 @@ Custom source repository for [Aidoku](https://aidoku.app/) (0.7+).
 | GoDa漫画 (BaozimhOrg) | 中文 | No | https://baozimh.org |
 | 拷貝漫畫 (MangaCopy) | 中文 | Yes | https://www.mangacopy.com |
 | Hanime1 | 中文 | Yes | https://hanime1.me |
-| 嗨皮漫画 (HappyMH) | 中文 | No | https://m.happymh.com |
 | Ho5Ho | 中文 | Yes | https://www.ho5ho.com |
 | 哔哩漫画 (BiliManga) | 中文 | Yes | https://www.bilimanga.net |
 | Komiic | 中文 | Yes | https://komiic.com |
@@ -96,7 +95,6 @@ Some sources and the `madara` / `mangathemesia` templates are based on
 | GoDa漫画 (BaozimhOrg) | 中文 | 否 | https://baozimh.org |
 | 拷貝漫畫 (MangaCopy) | 中文 | 是 | https://www.mangacopy.com |
 | Hanime1 | 中文 | 是 | https://hanime1.me |
-| 嗨皮漫画 (HappyMH) | 中文 | 否 | https://m.happymh.com |
 | Ho5Ho | 中文 | 是 | https://www.ho5ho.com |
 | 哔哩漫画 (BiliManga) | 中文 | 是 | https://www.bilimanga.net |
 | Komiic | 中文 | 是 | https://komiic.com |
@@ -132,7 +130,6 @@ https://leijie115.github.io/aidoku/index.min.json
 
 ## 已知问题
 
-- **嗨皮漫画 (zh.happymh)**：开发时网站无法访问，按旧版 Tachiyomi 扩展的接口实现，未经实测，接口可能已变化。
 - **Hanime1 / 18漫畫 / 巴卡漫画 / Manga18.Club**：有 Cloudflare 验证，只用存档页面验证过解析；阅读页（图片列表）未实测。首次打开时需在 App 弹出的网页中完成验证。
 - **污污漫畫 (zh.comic55)**：图片和封面为加密 + 切片打乱，需要 Aidoku 0.9.0+。
 - **禁漫天堂 (zh.jinmantiantang)**：需要 Aidoku 0.8.3+。
