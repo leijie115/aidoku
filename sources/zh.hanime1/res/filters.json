@@ -1,0 +1,9 @@
+[
+	{
+		"type": "select",
+		"id": "sort",
+		"title": "排序",
+		"options": ["最新", "熱門：本日", "熱門：本週", "熱門：所有"],
+		"ids": ["", "popular-today", "popular-week", "popular"]
+	}
+]

@@ -1,0 +1,97 @@
+[
+	{
+		"type": "text",
+		"id": "author",
+		"title": "Autor",
+		"placeholder": "Autor"
+	},
+	{
+		"type": "text",
+		"id": "artist",
+		"title": "Artista",
+		"placeholder": "Artista"
+	},
+	{
+		"type": "sort",
+		"id": "m_orderby",
+		"title": "Ordenar por",
+		"canAscend": false,
+		"options": [
+			"Relevancia",
+			"Reciente",
+			"A-Z",
+			"Valoración",
+			"Tendencia",
+			"Vistas",
+			"Nuevos"
+		]
+	},
+	{
+		"type": "select",
+		"id": "adult",
+		"title": "Contenido adulto",
+		"options": [
+			"Todos",
+			"Ninguno",
+			"Solo"
+		],
+		"ids": [
+			"",
+			"0",
+			"1"
+		]
+	},
+	{
+		"type": "multi-select",
+		"id": "status[]",
+		"title": "Estado",
+		"canExclude": false,
+		"options": [
+			"En curso",
+			"Completado",
+			"Cancelado",
+			"En pausa"
+		],
+		"ids": [
+			"on-going",
+			"end",
+			"canceled",
+			"on-hold"
+		]
+	},
+	{
+		"type": "multi-select",
+		"id": "genre[]",
+		"title": "Géneros",
+		"isGenre": true,
+		"canExclude": false,
+		"options": [
+			"Acción",
+			"Aventuras",
+			"BL",
+			"Comedia",
+			"Drama",
+			"Fantasia",
+			"GL",
+			"Omegaverse",
+			"Realeza",
+			"Romance",
+			"Shonen",
+			"Zombie"
+		],
+		"ids": [
+			"accion",
+			"aventuras",
+			"bl",
+			"comedia",
+			"drama",
+			"fantasia",
+			"gl",
+			"omegaverse",
+			"realeza",
+			"romance",
+			"shonen",
+			"zombie"
+		]
+	}
+]

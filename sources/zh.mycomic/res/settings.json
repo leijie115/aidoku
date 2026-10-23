@@ -1,0 +1,26 @@
+[
+	{
+		"type": "group",
+		"title": "語言",
+		"items": [
+			{
+				"type": "select",
+				"key": "lang",
+				"title": "首選語言",
+				"titles": [
+					"繁體中文",
+					"简体中文"
+				],
+				"values": [
+					"zh-hant",
+					"zh-hans"
+				],
+				"default": "zh-hant",
+				"refreshes": [
+					"content",
+					"listings"
+				]
+			}
+		]
+	}
+]

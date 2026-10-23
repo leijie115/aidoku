@@ -1,0 +1,26 @@
+[
+	{
+		"type": "note",
+		"text": "搜尋關鍵字時僅排序有效；標籤與狀態僅在關鍵字為空時生效"
+	},
+	{
+		"id": "sort",
+		"type": "sort",
+		"title": "排序",
+		"canAscend": false,
+		"options": ["預設/相關度", "最多觀看", "最近更新", "最多收藏"]
+	},
+	{
+		"id": "continued",
+		"type": "select",
+		"title": "狀態",
+		"options": ["全部", "連載中", "已完結"],
+		"ids": ["", "true", "false"]
+	},
+	{
+		"id": "tag",
+		"type": "text",
+		"title": "標籤",
+		"placeholder": "如：戲劇、人妻"
+	}
+]

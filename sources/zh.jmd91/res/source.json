@@ -1,0 +1,15 @@
+{
+	"info": {
+		"id": "zh.jmd91",
+		"name": "禁漫岛",
+		"version": 1,
+		"url": "https://91jmd.com",
+		"contentRating": 2,
+		"languages": ["zh"],
+		"minAppVersion": "0.7.1"
+	},
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsTagSearch": true
+	}
+}

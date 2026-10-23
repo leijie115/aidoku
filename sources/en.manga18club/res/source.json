@@ -1,0 +1,25 @@
+{
+	"info": {
+		"id": "en.manga18club",
+		"name": "Manga18.Club",
+		"version": 1,
+		"url": "https://manga18.club",
+		"contentRating": 2,
+		"languages": ["en"],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "popular",
+			"name": "Popular"
+		},
+		{
+			"id": "latest",
+			"name": "Latest"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsTagSearch": true
+	}
+}

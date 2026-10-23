@@ -1,0 +1,26 @@
+{
+	"info": {
+		"id": "zh.komiic",
+		"name": "Komiic",
+		"version": 2,
+		"url": "https://komiic.com",
+		"contentRating": 1,
+		"languages": ["zh"],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "recent_update",
+			"name": "最近更新"
+		},
+		{
+			"id": "recommendations",
+			"name": "个性化推荐"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsAuthorSearch": true,
+		"supportsTagSearch": true
+	}
+}

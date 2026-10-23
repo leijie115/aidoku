@@ -1,0 +1,28 @@
+[
+	{
+		"type": "group",
+		"title": "Dominio",
+		"footer": "Reinicie la aplicación para aplicar los cambios.",
+		"items": [
+			{
+				"type": "switch",
+				"key": "fetchDomain",
+				"title": "Buscar dominio automáticamente",
+				"subtitle": "Intenta buscar el dominio automáticamente al abrir la fuente.",
+				"default": true,
+				"refreshes": ["content", "listings"]
+			},
+			{
+				"type": "text",
+				"key": "url",
+				"title": "URL de la fuente",
+				"placeholder": "https://aedexnox.syakaihoken-web.com",
+				"keyboardType": 3,
+				"returnKeyType": 9,
+				"autocorrectionDisabled": true,
+				"autocapitalizationType": 0,
+				"refreshes": ["content", "listings"]
+			}
+		]
+	}
+]

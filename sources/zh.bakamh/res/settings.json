@@ -1,0 +1,20 @@
+[
+	{
+		"type": "group",
+		"title": "域名设置",
+		"footer": "如果当前域名无法访问，可在此处设置，域名可在发布页获取，默认域名为 https://bakamh.com",
+		"items": [
+			{
+				"type": "text",
+				"key": "url",
+				"title": "域名",
+				"placeholder": "https://bakamh.com",
+				"keyboardType": 3,
+				"returnKeyType": 9,
+				"autocorrectionDisabled": true,
+				"autocapitalizationType": 0,
+				"refreshes": ["content", "listings"]
+			}
+		]
+	}
+]

@@ -1,0 +1,58 @@
+{
+	"info": {
+		"id": "zh.bilimanga",
+		"name": "嗶哩漫畫",
+		"version": 5,
+		"url": "https://www.bilimanga.net",
+		"contentRating": 1,
+		"languages": ["zh"],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "weekvisit",
+			"name": "周點擊榜"
+		},
+		{
+			"id": "monthvisit",
+			"name": "月點擊榜"
+		},
+		{
+			"id": "weekvote",
+			"name": "周推薦榜"
+		},
+		{
+			"id": "monthvote",
+			"name": "月推薦榜"
+		},
+		{
+			"id": "weekflower",
+			"name": "周鮮花榜"
+		},
+		{
+			"id": "monthflower",
+			"name": "月鮮花榜"
+		},
+		{
+			"id": "lastupdate",
+			"name": "最近更新"
+		},
+		{
+			"id": "postdate",
+			"name": "最新入庫"
+		},
+		{
+			"id": "goodnum",
+			"name": "收藏榜"
+		},
+		{
+			"id": "newhot",
+			"name": "新書榜"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsAuthorSearch": true,
+		"supportsTagSearch": true
+	}
+}

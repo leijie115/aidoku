@@ -1,0 +1,47 @@
+[
+	{
+		"type": "group",
+		"title": "阅读设置",
+		"items": [
+			{
+				"type": "select",
+				"key": "chapterFilter",
+				"title": "章节列表显示",
+				"titles": ["同时显示卷和章节", "仅显示章节", "仅显示卷", "优先显示单行本"],
+				"values": ["all", "chapter", "book", "prefer_book"],
+				"default": "all",
+				"refreshes": ["content"]
+			},
+			{
+				"type": "switch",
+				"key": "checkImageLimit",
+				"title": "自动检查图片 API 上限",
+				"default": true
+			}
+		],
+		"footer": "Komiic 同一作品可能同时提供 Web 连载和单行本，两者是不同发行版本。部分漫画的章节可能缺失，仅显示卷会无法及时获取更新。达到每日图片上限时，开启检查会直接提示错误。"
+	},
+	{
+		"type": "group",
+		"title": "账号",
+		"items": [
+			{
+				"type": "login",
+				"key": "login",
+				"title": "登录",
+				"logoutTitle": "登出",
+				"method": "basic",
+				"useEmail": true,
+				"notification": "login",
+				"refreshes": ["settings", "listings", "content"]
+			},
+			{
+				"type": "link",
+				"title": "内容警告偏好",
+				"url": "https://komiic.com/settings/warnings",
+				"external": true,
+				"requires": "login"
+			}
+		]
+	}
+]

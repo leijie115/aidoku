@@ -1,0 +1,20 @@
+[
+	{
+		"type": "group",
+		"title": "사이트 주소",
+		"footer": "도메인이 변경된 경우 새 주소를 입력하세요 (예: https://newxtoon3.com). 비워 두면 기본 주소를 사용합니다.",
+		"items": [
+			{
+				"type": "text",
+				"key": "baseUrl",
+				"title": "사이트 주소",
+				"placeholder": "https://newxtoon3.com",
+				"keyboardType": 3,
+				"returnKeyType": 9,
+				"autocorrectionDisabled": true,
+				"autocapitalizationType": 0,
+				"refreshes": ["content", "listings"]
+			}
+		]
+	}
+]

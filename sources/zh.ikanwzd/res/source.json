@@ -1,0 +1,21 @@
+{
+	"info": {
+		"id": "zh.ikanwzd",
+		"name": "漫小肆韓漫 (ikanwzd)",
+		"version": 1,
+		"url": "https://www.ikanwzd.cc",
+		"contentRating": 2,
+		"languages": ["zh"],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "update",
+			"name": "最近更新"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsTagSearch": true
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"info": {
+		"id": "zh.comic55",
+		"name": "污污漫畫",
+		"version": 1,
+		"url": "https://www.55comic.com",
+		"contentRating": 2,
+		"languages": ["zh"],
+		"minAppVersion": "0.9.0"
+	},
+	"listings": [
+		{
+			"id": "rank",
+			"name": "排行榜"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsTagSearch": true
+	}
+}

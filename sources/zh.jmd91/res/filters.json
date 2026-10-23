@@ -1,0 +1,24 @@
+[
+	{
+		"id": "genre",
+		"type": "select",
+		"title": "分类",
+		"isGenre": true,
+		"options": ["全部", "韩漫", "日漫", "3D漫画", "真人", "短篇"],
+		"ids": ["all", "韩漫", "日漫", "3D漫画", "真人", "短篇"]
+	},
+	{
+		"id": "sort",
+		"type": "sort",
+		"title": "排序",
+		"canAscend": false,
+		"options": ["按时间", "按阅读"]
+	},
+	{
+		"id": "status",
+		"type": "select",
+		"title": "状态",
+		"options": ["全部", "已完结", "更新中"],
+		"ids": ["all", "completed", "serialized"]
+	}
+]

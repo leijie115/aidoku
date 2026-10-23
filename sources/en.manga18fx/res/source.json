@@ -1,0 +1,24 @@
+{
+	"info": {
+		"id": "en.manga18fx",
+		"name": "Manga18fx",
+		"version": 1,
+		"url": "https://manga18fx.com",
+		"contentRating": 2,
+		"languages": ["en"],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "trending",
+			"name": "Trending"
+		},
+		{
+			"id": "latest",
+			"name": "Latest"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true
+	}
+}

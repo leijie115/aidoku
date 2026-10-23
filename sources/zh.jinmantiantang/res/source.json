@@ -1,0 +1,35 @@
+{
+	"info": {
+		"id": "zh.jinmantiantang",
+		"name": "禁漫天堂",
+		"version": 1,
+		"languages": [
+			"zh"
+		],
+		"contentRating": 2,
+		"url": "https://18comic.ink",
+		"minAppVersion": "0.8.3"
+	},
+	"listings": [
+		{
+			"id": "o:mr",
+			"name": "最近更新"
+		},
+		{
+			"id": "latest",
+			"name": "最新上傳"
+		},
+		{
+			"id": "o:tf",
+			"name": "最多愛心"
+		},
+		{
+			"id": "cat:single",
+			"name": "單本推薦"
+		}
+	],
+	"config": {
+		"supportsTagSearch": true,
+		"supportsAuthorSearch": true
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"info": {
+		"id": "zh.mycomic",
+		"name": "MyComic",
+		"version": 3,
+		"url": "https://mycomic.com",
+		"contentRating": 1,
+		"languages": [
+			"zh"
+		],
+		"minAppVersion": "0.7.1"
+	},
+	"listings": [
+		{
+			"id": "update",
+			"name": "最近更新"
+		},
+		{
+			"id": "views",
+			"name": "最高人氣"
+		},
+		{
+			"id": "rank",
+			"name": "日排行"
+		},
+		{
+			"id": "rank-week",
+			"name": "週排行"
+		},
+		{
+			"id": "rank-month",
+			"name": "月排行"
+		},
+		{
+			"id": "rank-views",
+			"name": "歷史排行"
+		}
+	],
+	"config": {
+		"hidesFiltersWhileSearching": true,
+		"supportsAuthorSearch": true,
+		"supportsTagSearch": true
+	}
+}

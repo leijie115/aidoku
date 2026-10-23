@@ -1,0 +1,79 @@
+[
+	{
+		"type": "select",
+		"id": "genre",
+		"title": "Genre",
+		"isGenre": true,
+		"options": [
+			"All",
+			"Manhwa",
+			"Manhua",
+			"Raw",
+			"Uncensored Manhwa",
+			"Drama",
+			"Action",
+			"Romance",
+			"Harem",
+			"Seinen",
+			"School Life",
+			"Mature",
+			"Psychological",
+			"Tragedy",
+			"Ecchi",
+			"Comedy",
+			"Fantasy",
+			"Supernatural",
+			"Isekai",
+			"Shoujo",
+			"Adventure",
+			"Shounen",
+			"Mystery",
+			"Thriller",
+			"Reincarnation"
+		],
+		"ids": [
+			"",
+			"manhwa",
+			"manhua",
+			"raw",
+			"uncensored-manhwa",
+			"drama",
+			"action",
+			"romance",
+			"harem",
+			"seinen",
+			"school-life",
+			"mature",
+			"psychological",
+			"tragedy",
+			"ecchi",
+			"comedy",
+			"fantasy",
+			"supernatural",
+			"isekai",
+			"shoujo",
+			"adventure",
+			"shounen",
+			"mystery",
+			"thriller",
+			"reincarnation"
+		]
+	},
+	{
+		"type": "select",
+		"id": "orderby",
+		"title": "Order by (genre only)",
+		"options": [
+			"Default",
+			"Latest",
+			"Rating",
+			"Most Views"
+		],
+		"ids": [
+			"",
+			"latest",
+			"rating",
+			"views"
+		]
+	}
+]

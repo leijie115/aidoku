@@ -1,0 +1,11 @@
+{
+	"info": {
+		"id": "zh.ho5ho",
+		"name": "Ho5Ho",
+		"version": 1,
+		"url": "https://www.ho5ho.com",
+		"contentRating": 2,
+		"languages": ["zh"],
+		"minAppVersion": "0.7.1"
+	}
+}
